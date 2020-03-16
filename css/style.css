@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#baseCanvas {
+    border: 1px black solid
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+#main h1 {
+    margin: 0
+}
+
+#main a {
+    margin-top: 2rem;
+}
+
+.start-button {
+    background-color: #4CAF50;
+    padding: 20px 40px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.start-button:hover {
+    background-color: #46A049;
+}

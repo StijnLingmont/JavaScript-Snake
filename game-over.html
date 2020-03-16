@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Canvas</title>
+        <link rel="stylesheet" href="css/style.css">
+        <meta name=”robots” content=”noindex,nofollow”/>
+        <link rel="icon" href="icons/snake.svg" type="image/gif" sizes="16x16">
+    </head>
+    <body>
+        <div id="main">
+            <h1>Game over!</h1>
+            <p>Wanna play again?</p>
+            <a href="./game.html" class="start-button">Start new game</a>
+            <h3>Fruit eaten: <span id="points">0</span></h3>
+        </div>
+
+        <script>
+            document.getElementById("points").innerText = sessionStorage.getItem("points");
+        </script>
+    </body>
+</html>
